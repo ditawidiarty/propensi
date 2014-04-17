@@ -1,0 +1,1 @@
+<?php echo CHtml::link('Halaman Depan',array('belajar/')); ?>

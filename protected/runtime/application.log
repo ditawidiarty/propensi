@@ -1,0 +1,49 @@
+2014/04/14 06:34:55 [error] [php] Invalid argument supplied for foreach() (C:\xampp-portable\htdocs\propensi\protected\views\belajar\tampil_view.php:7)
+Stack trace:
+#0 C:\xampp-portable\htdocs\yii\framework\web\CController.php(869): BelajarController->renderFile()
+#1 C:\xampp-portable\htdocs\yii\framework\web\CController.php(782): BelajarController->renderPartial()
+#2 C:\xampp-portable\htdocs\propensi\protected\controllers\belajarController.php(12): BelajarController->render()
+#3 C:\xampp-portable\htdocs\yii\framework\web\actions\CInlineAction.php(49): BelajarController->actionTampil()
+#4 C:\xampp-portable\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp-portable\htdocs\yii\framework\web\CController.php(286): BelajarController->runAction()
+#6 C:\xampp-portable\htdocs\yii\framework\web\CController.php(265): BelajarController->runActionWithFilters()
+#7 C:\xampp-portable\htdocs\yii\framework\web\CWebApplication.php(282): BelajarController->run()
+#8 C:\xampp-portable\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp-portable\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp-portable\htdocs\propensi\index.php(13): CWebApplication->run()
+REQUEST_URI=/propensi/index.php?r=belajar/tampil
+in C:\xampp-portable\htdocs\propensi\protected\views\belajar\tampil_view.php (7)
+in C:\xampp-portable\htdocs\propensi\protected\controllers\belajarController.php (12)
+in C:\xampp-portable\htdocs\propensi\index.php (13)
+2014/04/14 06:35:29 [error] [exception.CException] exception 'CException' with message 'BelajarController cannot find the requested view "data_view".' in C:\xampp-portable\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp-portable\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('data_view', Array, true)
+#1 C:\xampp-portable\htdocs\propensi\protected\controllers\belajarController.php(18): CController->render('data_view', Array)
+#2 C:\xampp-portable\htdocs\yii\framework\web\actions\CInlineAction.php(49): BelajarController->actionTampildata()
+#3 C:\xampp-portable\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp-portable\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp-portable\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp-portable\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('tampildata')
+#7 C:\xampp-portable\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('belajar/tampild...')
+#8 C:\xampp-portable\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp-portable\htdocs\propensi\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/propensi/index.php?r=belajar/tampildata
+---
+2014/04/14 06:35:39 [error] [php] Invalid argument supplied for foreach() (C:\xampp-portable\htdocs\propensi\protected\views\belajar\tampil_view.php:7)
+Stack trace:
+#0 C:\xampp-portable\htdocs\yii\framework\web\CController.php(869): BelajarController->renderFile()
+#1 C:\xampp-portable\htdocs\yii\framework\web\CController.php(782): BelajarController->renderPartial()
+#2 C:\xampp-portable\htdocs\propensi\protected\controllers\belajarController.php(12): BelajarController->render()
+#3 C:\xampp-portable\htdocs\yii\framework\web\actions\CInlineAction.php(49): BelajarController->actionTampil()
+#4 C:\xampp-portable\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp-portable\htdocs\yii\framework\web\CController.php(286): BelajarController->runAction()
+#6 C:\xampp-portable\htdocs\yii\framework\web\CController.php(265): BelajarController->runActionWithFilters()
+#7 C:\xampp-portable\htdocs\yii\framework\web\CWebApplication.php(282): BelajarController->run()
+#8 C:\xampp-portable\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp-portable\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp-portable\htdocs\propensi\index.php(13): CWebApplication->run()
+REQUEST_URI=/propensi/index.php?r=belajar/tampil
+in C:\xampp-portable\htdocs\propensi\protected\views\belajar\tampil_view.php (7)
+in C:\xampp-portable\htdocs\propensi\protected\controllers\belajarController.php (12)
+in C:\xampp-portable\htdocs\propensi\index.php (13)
